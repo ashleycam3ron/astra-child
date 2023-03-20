@@ -1,0 +1,130 @@
+/**
+Theme Name: My Theme Name
+Author: Ashley N Cameron
+Author URI: https://ashley-cameron.com
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: mythemename
+Template: astra
+*/
+
+header a{text-decoration: none;}
+a, a:hover, input,input:hover,
+.blog-post,.blog-post:hover, img,img:hover{
+	-webkit-transition:all .3s ease-in-out;
+	-moz-transition:all .3s ease-in-out;
+	-ms-transition:all .3s ease-in-out;
+	-o-transition:all .3s ease-in-out;
+	transition:all .3s ease-in-out;
+}
+h1.entry-title {font-size: 4em;}
+h4 {font-weight: normal;}
+.single .entry-header {margin-bottom: 2em;text-align: center;}
+.clearfix::after {content: ""; clear: both; display: table; }
+
+/* !Navigation */
+#breadcrumbs,#message { font-size: .9em;font-family: "Inter",sans-serif;}
+.fa-moon{font-size: .9em;margin-right: 6px; color: #d2a9ab}
+#breadcrumbs span > span:nth-child(1) > a { background: url(path-to-symbol-or-logo.png) no-repeat 0px 0px; text-indent: -999em; display: inline-block; padding: 0; width: 29px; background-size: contain; text-align: left; }
+span.sep { content: ' '; background: url(images/separator.svg) no-repeat; background-size: 5px 10px; width:5px; height: 10px; display: inline-block; margin: 0 10px; }
+span.breadcrumb_last {color: #885052;}
+li#menu-item-940 {padding:13px 0 13px 18px;}
+li#menu-item-940 a{border-radius: 20em;background:#d3a9ab;/* height: 40px; */text-align: center;color: #20324b;font-size: .9em;padding: 15px 22px 15px 22px;border: 0}
+li#menu-item-940 a:hover{background:#F1E0E1;border: 0;}
+.hfe-pointer__underline .menu-item.parent a.hfe-menu-item:after{background-color: #d2a9ab;}
+
+/* !Content */
+.ast-article-single li {margin-bottom: 11px;}
+.ast-article-single .entry-meta {display: none;}
+.elementor-86 a:hover img{box-shadow:0 2px 18px rgb(15 31 52 / 43%);}
+
+/* !Blog */
+.ast-page-builder-template .site-content #primary {background: #f6e9e8;}
+.blog #content{background: #e1c6c6;}
+.blog #main{padding: 4% 0 0;}
+
+.blog-post{width: 25%;float: left;padding: 20px;text-align: center;}
+.blog-post img{border-radius: 20em;max-width: 250px;margin-bottom: 18px;}
+.blog-post:hover img{/* background:#f6e9e8; */box-shadow: 0px 0px 17px #b08688;}
+header.entry-header .post-thumb-img-content {margin-bottom: 25px !important;}
+.single #main > article .entry-content > p:not(h3 + p):first-of-type:first-letter{font-size: 6em;float: left; padding-right: 6px; line-height: .75; color: #d3a9ab; margin-left: -1px; font-family: 'DM Serif Display', serif;font-weight: normal;}
+.blog article {padding: 6% 5%;display: block;}
+.blog hr {background-color: #e1c6c5;}
+.blog-img,.blog-excerpt{float: left;}
+.blog-img{width: 30%;}
+.blog-excerpt h3{font-size: 2em;margin-bottom: 4px;}
+p.date{font-size: .9em;margin-bottom: 5px;color: #5a708e;color: #91585b;}
+.blog-excerpt{width: 70%;padding: 0 5%;}
+.read-more a{background: #d2a9ab;padding: 14px 26px; border-radius: 20em; margin: 0 0 0 -10px;}
+.ast-single-related-posts-container,
+.single .post-navigation{border-top: 1px solid #20324b;}
+hr{margin: 0;}
+.ast-related-post-cta.read-more{display: none;}
+.ast-pagination,.blog .read-more {font-family: 'Inter', sans-serif;}
+.blog .read-more{font-size: .9em;}
+.blog .read-more a:hover{background-color:#5B708E;color: #20324b;/* color: white; */}
+
+/* !Sidebar */
+.ast-right-sidebar #primary{border: 0;}
+.ast-right-sidebar #secondary {border-left: 0;}
+#secondary {margin: 5.5em 0 2.5em;line-height: 1.6em;border: 0;}
+#secondary address{margin:0;}
+#secondary .widget {margin-bottom: 1.5em;}
+aside#block-2 {margin-bottom: 13px;}
+aside#block-3,#secondary h2 {margin-bottom: 0px;}
+aside#recent-posts-2 a {font-weight: bold; font-size: 1.15em; display: block; line-height: 1.4; margin-bottom: 3px; margin-top: 18px; }
+.widget h5 {font-family: 'Inter', sans-serif; text-transform: uppercase; letter-spacing: 1px; font-size: .85em; font-weight: 600; margin-top: 12px; }
+
+/* !Related Posts */
+header.entry-header.related-entry-header {margin: 20px 0 12px;}
+.ast-related-post-content {text-align: center;}
+.ast-related-post-content .entry-header .ast-related-post-title a {font-size: 1.4em;}
+.ast-related-post-content .entry-meta{display: none;}
+
+/* !Footer */
+footer small {font-size: 1em;letter-spacing: .02em;color: #a3b4c4;}
+#subscribe form{margin-bottom: 10px;}
+#subscribe h3,#subscribe label{display: none;}
+input#mce-EMAIL {min-width: 245px;}
+input#mc-embedded-subscribe {    display: inline-block;padding: 20px 15px 18px; border-radius: 2px; border: 0; background: #d2a9ab; font-size: .9em; font-weight: 600;}
+input#mc-embedded-subscribe:hover {color: #20324b;background: #5b708e;}
+.footer-widget-area[data-section="section-fb-html-3"] .ast-builder-html-element {text-align: left;}
+.site-below-footer-inner-wrap {font-family: 'Inter', sans-serif; font-size: .9em; }
+.footer-widget-area[data-section="section-fb-html-3"] {font-size: 1.1em; margin-bottom: 25px; }
+footer .fa-location-dot { color: #3f5974; margin-right: 3px; }
+footer .fa-chevron-right { font-size: .85em; opacity: .6;margin-left: 3px;}
+.ast-builder-footer-grid-columns.site-primary-footer-inner-wrap.ast-builder-grid-row {
+    font-family: 'Crimson Text', serif;
+}
+
+/* !Form */
+.gform_legacy_markup_wrapper li.hidden_label input {
+    margin-top: 0;
+}
+#gform_1 input,#gform_1 textarea {
+    padding: 13px 16px;
+}
+.gform_footer.top_label {
+    text-align: center;
+    margin: 0;
+}
+input#gform_submit_button_1:hover {background: #5B708E;}
+input#gform_submit_button_1 {
+    width: 160px;
+    height: 56px;
+    background: #20324b;
+    color: white;
+}
+
+/* !Media Sizes */
+@media (min-width: 993px){
+
+.ast-right-sidebar #secondary{
+    padding-left: 40px;
+}
+.ast-page-builder-template.ast-right-sidebar #secondary {
+    padding-right: 35px;
+}
+}
